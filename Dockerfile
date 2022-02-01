@@ -6,7 +6,7 @@
 
 FROM datashield/rock-base:latest
 
-ENV DSEXPOSOME_VERSION v1.0.1
+ENV DSEXPOSOME_VERSION v1.0.2
 
 ENV ROCK_LIB /var/lib/rock/R/library
 
