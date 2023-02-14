@@ -6,9 +6,11 @@
 
 FROM datashield/rock-base:latest
 
-ENV DSEXPOSOME_VERSION 2.0.4
+ENV DSEXPOSOME_VERSION 2.0.9
 
 ENV ROCK_LIB /var/lib/rock/R/library
+
+RUN apt-get install -y libnetcdf-dev
 
 # Install new R packages
 # dsExposome
